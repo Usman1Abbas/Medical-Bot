@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="DxGPT — AI differential diagnosis assistant">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0d1b2a"/>
-      <stop offset="0.55" stop-color="#125a4d"/>
-      <stop offset="1" stop-color="#1b9c85"/>
+      <stop offset="0" stop-color="#0a0f1f"/>
+      <stop offset="0.55" stop-color="#1e3a8a"/>
+      <stop offset="1" stop-color="#3b82f6"/>
     </linearGradient>
     <radialGradient id="glow" cx="0.82" cy="0.25" r="0.6">
-      <stop offset="0" stop-color="#e9c46a" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#e9c46a" stop-opacity="0"/>
+      <stop offset="0" stop-color="#60a5fa" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#60a5fa" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="1200" height="380" rx="20" fill="url(#bg)"/>
   <rect width="1200" height="380" rx="20" fill="url(#glow)"/>
 
   <!-- MOTIF: stethoscope with a heartbeat pulse forming a medical cross -->
-  <g transform="translate(980,190)" stroke="#e9c46a" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.92">
+  <g transform="translate(980,190)" stroke="#60a5fa" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.92">
     <!-- earpiece tubing -->
     <path d="M -70 -78 C -70 -40 -50 -18 -28 -18 C -6 -18 14 -40 14 -78"/>
     <circle cx="-70" cy="-82" r="7"/>
@@ -32,7 +32,7 @@
 
   <!-- wordmark -->
   <text x="80" y="160" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="78" font-weight="800" fill="#ffffff">DxGPT</text>
-  <text x="84" y="232" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" fill="#e9c46a">Medical Expert System</text>
-  <text x="84" y="288" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" fill="#dcefe9">AI-powered differential diagnosis from patient symptoms.</text>
-  <text x="84" y="324" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#9ec9bf">Streamlit · DxGPT · OpenAI GPT-4o · Python · educational</text>
+  <text x="84" y="232" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" fill="#60a5fa">Medical Expert System</text>
+  <text x="84" y="288" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" fill="#eff6ff">AI-powered differential diagnosis from patient symptoms.</text>
+  <text x="84" y="324" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#93c5fd">Streamlit · DxGPT · OpenAI GPT-4o · Python · educational</text>
 </svg>
